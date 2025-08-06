@@ -1,0 +1,636 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="robots" content="index, follow">
+    <link rel="stylesheet" href="assets/css/bootstrap.css">
+    <link rel="stylesheet" href="assets/css/slick.css">
+    <link rel="stylesheet" href="assets/css/slick-theme.css">
+    <link rel="stylesheet" href="assets/css/aos.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/responsive.css">
+    <link rel="shortcut icon" href="assets/images/favicon.ico" type="image/x-icon">
+    <title>Events</title>
+</head>
+
+<body>
+    <!-- Header Section Start -->
+    <!-- <div class="top_bar bg_theme">
+        <div class="top_wrap py-1">
+            <div class="top_txt">
+                <marquee behavior="scroll" direction="left" scrollamount="5" scrolldelay="85" loop="infinite">
+                    <p class="text_white">
+                        Step into the excitement at Magic Palace, a gaming and entertainment destination just minutes
+                        from downtown Montréal.
+                    </p>
+                </marquee>
+            </div>
+            <div class="top_icons">
+                <div class="social_icons">
+                    <ul>
+                        <li>
+                            <a href="https://www.facebook.com/" target="_blank"><svg xmlns="http://www.w3.org/2000/svg"
+                                    viewBox="0 0 320 512">
+                                    <path
+                                        d="M80 299.3V512H196V299.3h86.5l18-97.8H196V166.9c0-51.7 20.3-71.5 72.7-71.5c16.3 0 29.4 .4 37 1.2V7.9C291.4 4 256.4 0 236.2 0C129.3 0 80 50.5 80 159.4v42.1H14v97.8H80z">
+                                    </path>
+                                </svg>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.instagram.com/?hl=en" target="_blank"><svg
+                                    xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                                    <path
+                                        d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z">
+                                    </path>
+                                </svg>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://x.com/?lang=en" target="_blank">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                                    <path
+                                        d="M389.2 48h70.6L305.6 224.2 487 464H345L233.7 318.6 106.5 464H35.8L200.7 275.5 26.8 48H172.4L272.9 180.9 389.2 48zM364.4 421.8h39.1L151.1 88h-42L364.4 421.8z">
+                                    </path>
+                                </svg>
+                            </a>
+                        </li>
+                    </ul>
+
+                </div>
+            </div>
+        </div>
+    </div> -->
+
+    <div class="top_bar bg_theme">
+        <div class="container-fluid py-1">
+            <div class="row align-items-center justify-content-between">
+                <div class="col-7 col-sm-8 col-md-9 col-lg-10 mb-2 mb-md-0">
+                    <div class="top_txt">
+                        <marquee behavior="scroll" direction="left" scrollamount="5" scrolldelay="85" loop="infinite">
+                            <p class="text-white mb-0">
+                                Step into the excitement at Magic Palace, a gaming and entertainment destination just
+                                minutes
+                                from downtown Montréal.
+                            </p>
+                        </marquee>
+                    </div>
+                </div>
+                <div class="col-5 col-sm-4 col-md-3 col-lg-2 text-md-end text-center social-icons">
+                    <div class="top_icons">
+                        <ul class="list-inline mb-0">
+                            <li class="list-inline-item">
+                                <a href="https://www.facebook.com/" target="_blank" class="text-white">
+                                    <!-- Facebook SVG -->
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512">
+                                        <path
+                                            d="M80 299.3V512H196V299.3h86.5l18-97.8H196V166.9c0-51.7 20.3-71.5 72.7-71.5c16.3 0 29.4 .4 37 1.2V7.9C291.4 4 256.4 0 236.2 0C129.3 0 80 50.5 80 159.4v42.1H14v97.8H80z">
+                                        </path>
+                                    </svg>
+                                </a>
+                            </li>
+                            <li class="list-inline-item">
+                                <a href="https://www.instagram.com/?hl=en" target="_blank" class="text-white">
+                                    <!-- Instagram SVG -->
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                                        <path
+                                            d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z">
+                                        </path>
+                                    </svg>
+                                </a>
+                            </li>
+                            <li class="list-inline-item">
+                                <a href="https://x.com/?lang=en" target="_blank" class="text-white">
+                                    <!-- Twitter (X) SVG -->
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                                        <path
+                                            d="M389.2 48h70.6L305.6 224.2 487 464H345L233.7 318.6 106.5 464H35.8L200.7 275.5 26.8 48H172.4L272.9 180.9 389.2 48zM364.4 421.8h39.1L151.1 88h-42L364.4 421.8z">
+                                        </path>
+                                    </svg>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <header class="sticky-header">
+        <div class="container">
+            <nav class="navigation-bar">
+                <div class="brand-container">
+                    <a href="./" class="brand-link">
+                    </a>
+                </div>
+                <div class="menu-toggle-btn">
+                    <svg class="header-toggle-btn" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="100"
+                        height="100" viewBox="0 0 24 24">
+                        <path
+                            d="M 2 5 L 2 7 L 22 7 L 22 5 L 2 5 z M 2 11 L 2 13 L 22 13 L 22 11 L 2 11 z M 2 17 L 2 19 L 22 19 L 22 17 L 2 17 z">
+                        </path>
+                    </svg>
+                </div>
+                <div class="navigation-menu">
+                    <ul>
+                        <li><a class="active" href="./">Home</a></li>
+                        <li><a href="dining">Dining</a></li>
+                        <li><a href="gaming">Gaming</a></li>
+                        <li><a href="promotions">Promotions</a></li>
+                        <li><a href="events">Events</a></li>
+                        <li><a href="about">About</a></li>
+                        <li><a href="contact">Contact</a></li>
+                    </ul>
+                    <div class="menu-close-btn">
+                        <svg class="close-menu-button" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="100" height="100"
+                            viewBox="0 0 24 24">
+                            <path d="M11 0.7H13V23.3H11z" transform="rotate(-45.001 12 12)"></path>
+                            <path d="M0.7 11H23.3V13H0.7z" transform="rotate(-45.001 12 12)"></path>
+                        </svg>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <!-- Header Section End -->
+
+    <section class="inner_banner aoshide">
+        <div class="inner_wrap">
+            <div>
+                <div>
+                    <div class="banner_slides" style="background-image: url('assets/images/event-banner.jpg');">
+                        <div class="banner_slide_content">
+                            <h1 class="text_white">
+                                Events at
+                                <span class="theme">Magic Palace </span> – Something Happening Every Week
+
+
+                            </h1>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <!-- Home After Banner Section Start  -->
+    <div class="home_nxt_event bg_sec py-5">
+        <div class="container">
+            <div class="home_nxt_event_wrap">
+                <div class="row">
+                    <div class="col-lg-5" data-aos="zoom-in" data-aos-duration="1000">
+                        <div class="img_part_outer">
+                            <div class="img_part bg_center_cover"
+                                style="background-image: url('assets/images/game-play.jpg');">
+                            </div>
+                            <div class="common_overlay"></div>
+                        </div>
+                    </div>
+                    <div class="col-lg-7" data-aos="zoom-in" data-aos-duration="1200">
+                        <div class="text_part ">
+                            <p class="mt-4 mb-3 text_white">
+                                Looking for more than just gameplay? Magic Palace hosts a full calendar of events
+                                designed to bring players together for fun, rewards, and live entertainment.
+                            </p>
+                            <p class="mt-4 mb-3 text_white">
+                                From themed casino nights to slot tournaments and prize draws, our events add something
+                                extra to your visit.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Home After Banner Section End -->
+
+
+    <section class="home_banner aoshide promo-slider">
+        <div class="container">
+            <h1 class="text_white text-center this-month-pr-heading" data-aos="fade-up">Upcoming <span class="theme">Events</span></h1>
+        </div>
+        <div>
+            <div class="home_slider_wrap">
+                <div class="single_item_slider promo-corousel">
+                    <div>
+                        <div class="banner_slides" style="background-image: url('assets/images/game-play.jpg');">
+                            <div class="banner_slide_content">
+                                <h1 class="text_white">
+                                    🎰
+                                    <span class="theme">Monthly </span>Slot Tournaments
+                                </h1>
+                                <p class="mt-4 mb-3 text_white">Test your luck and timing in our monthly slot
+                                    tournaments. With cash prizes, leaderboard standings, and bonus credit for top
+                                    players, it’s a crowd favourite. Registration is free for Loyalty members.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="banner_slides" style="background-image: url('assets/images/spin-win.jpg');">
+                            <div class="banner_slide_content">
+                                <h1 class="text_white">
+                                    🎟 <span class="theme">Spin & Win</span>Weekends
+                                </h1>
+                                <p class="mt-4 mb-3 text_white"> Every weekend, random machines across the floor are
+                                    picked for surprise credit drops. Keep an eye on the displays and signage — your
+                                    next spin might trigger a bonus.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="banner_slides" style="background-image: url('assets/images/live-music.jpg');">
+                            <div class="banner_slide_content">
+                                <h1 class="text_white">
+                                    🍻
+                                    <span class="theme">Live Music </span> Fridays
+                                </h1>
+                                <p class="mt-4 mb-3 text_white">Join us every Friday night for live music in the lounge.
+                                    Grab a drink, unwind, and enjoy the atmosphere while staying close to the gaming
+                                    floor.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="banner_slides" style="background-image: url('assets/images/birthday.jpg');">
+                            <div class="banner_slide_content">
+                                <h1 class="text_white">
+                                    🎂
+                                    <span class="theme">Birthday </span> Month Bonuses
+                                </h1>
+                                <p class="mt-4 mb-3 text_white"> Celebrate with us! If it’s your birthday month, you’ll
+                                    receive free play credit and entry into our birthday draw. Just present ID at the
+                                    Loyalty desk.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="banner_slides" style="background-image: url('assets/images/slot-machines.jpg');">
+                            <div class="banner_slide_content">
+                                <h1 class="text_white">
+                                    🎄 Seasonal
+                                    <span class="theme">Specials</span>
+                                </h1>
+                                <p class="mt-4 mb-3 text_white">EHoliday weekends and seasonal events come with their
+                                    own bonus promotions, food specials, and themed games. Don’t miss out — they change
+                                    fast.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+
+
+    <section>
+        <div class="container">
+            <div class="dine-features">
+                <div class="row">
+                    <div class="col-12 mb-4 py-5">
+                        <div data-aos="fade-right" data-aos-duration="800">
+
+                            <div>
+                                <h3 class="mb-3 text_theme">
+                                    Private Events & Group Bookings
+
+                                </h3>
+                                <p class="mt-4 mb-3 text_white">Hosting a celebration, group night, or corporate event?
+                                    Magic Palace offers packages for groups of all sizes with access to gaming, dining,
+                                    and drinks under one roof.
+                                </p>
+                                <h4 class="mt-4 mb-3 text_white">Get in touch with us to plan:</h4>
+                                <ul class="text-white mb-3 plan-ul">
+                                    <li class="mb-3">Private tournament nights</li>
+                                    <li class="mb-3">Dining + gaming packages</li>
+                                    <li class="mb-3">Team building events</li>
+                                    <li class="mb-3">Birthday celebrations</li>
+                                </ul>
+                                
+                                <p class="text-white">Custom menus and reserved areas are available by request.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Newsletter Section Start -->
+    <section class="newsletter-section py-5 aoshide">
+        <div class="container">
+            <div class="newsletter-wrap">
+                <div class="heading_wrap mb-3">
+                    <h2 class="section_heading mb-3">
+                        Newsletter Signup
+
+                    </h2>
+                </div>
+                <p class="pb-3 text_white" data-aos="fade-up" data-aos-duration="1000">
+                    Be First to Know –<span class="theme">Event Newsletter Signup</span>
+                </p>
+
+                <div class="newsletter_btm_txt pt-5" data-aos="fade-up">
+                    <h5 class="text_theme mb-4">
+                        Want early access to event details and private invites?
+
+                    </h5>
+                    <h5 class="text_theme mb-4">
+                        Sign up to receive:
+
+                    </h5>
+                    <ul>
+                        <li>
+                            <p>
+                                Event calendars
+
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                Slot tournament notices
+
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                Exclusive Loyalty-only nights
+
+
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                Priority booking for private functions
+
+                            </p>
+                        </li>
+                    </ul>
+
+
+                    <div class="row mt-5 newsletter_row" data-aos="fade-left" data-aos-duration="1000">
+                        <p class="text_white mb-3">
+                            Drop your email below to stay updated.
+                        </p>
+                        <div class="col-md-6 col-12">
+                            <input type="email" class="email" placeholder="Your Email" required="">
+                        </div>
+                        <div class="col-12 pt-5">
+                            <a href="javascript:void(0)" class="newsletter_btn butn">
+                                Drop Your Email..
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Newsletter Section End -->
+
+
+
+
+
+
+
+    <!-- FAQ Section Start -->
+    <section class="faq_sec py-7 bg_light">
+        <div class="container">
+            <div class="faq_wrap">
+                <div class="main-faqs">
+                    <h2 class="section_heading mb-5">
+                        Events FAQs
+                    </h2>
+                    <div class="row">
+                        <div class="col-lg-5">
+                            <div class="faq_img_outer">
+                                <div class="faq_img bg_center_cover"
+                                    style="background-image: url(assets/images/public-events.jpg);">
+                                </div>
+                                <div class="common_overlay"></div>
+                            </div>
+                        </div>
+                        <div class="col-lg-7">
+                            <div class="accordion" id="accordionExample">
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header">
+                                        <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                            data-bs-target="#collapseOne" aria-expanded="true"
+                                            aria-controls="collapseOne">
+                                            Do I need to book in advance for public events?
+
+                                        </button>
+                                    </h2>
+                                    <div id="collapseOne" class="accordion-collapse collapse show"
+                                        data-bs-parent="#accordionExample">
+                                        <div class="accordion-body">
+                                            <p>
+                                                Most events are drop-in, but certain tournaments and dinners may require
+                                                advance registration. Details are always listed ahead of time.
+
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header">
+                                        <button class="accordion-button collapsed" type="button"
+                                            data-bs-toggle="collapse" data-bs-target="#collapseTwo"
+                                            aria-expanded="false" aria-controls="collapseTwo">
+                                            Is there a cost to attend events?
+
+                                        </button>
+                                    </h2>
+                                    <div id="collapseTwo" class="accordion-collapse collapse"
+                                        data-bs-parent="#accordionExample">
+                                        <div class="accordion-body">
+                                            <p>
+                                                Most events are free to Loyalty members. Some food or drink-based events
+                                                may carry a fixed price or require minimum play.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header">
+                                        <button class="accordion-button collapsed" type="button"
+                                            data-bs-toggle="collapse" data-bs-target="#collapseThree"
+                                            aria-expanded="false" aria-controls="collapseThree">
+                                            Can I bring guests to events?
+
+                                        </button>
+                                    </h2>
+                                    <div id="collapseThree" class="accordion-collapse collapse"
+                                        data-bs-parent="#accordionExample">
+                                        <div class="accordion-body">
+                                            <p>
+                                                Yes — guests are welcome as long as they meet the minimum age
+                                                requirement of 18+.
+
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header">
+                                        <button class="accordion-button collapsed" type="button"
+                                            data-bs-toggle="collapse" data-bs-target="#collapseFour"
+                                            aria-expanded="false" aria-controls="collapseFour">
+                                            How can I get updates on events?
+
+
+                                        </button>
+                                    </h2>
+                                    <div id="collapseFour" class="accordion-collapse collapse"
+                                        data-bs-parent="#accordionExample">
+                                        <div class="accordion-body">
+                                            <p>
+                                                Sign up for our newsletter or follow our front-of-house display boards
+                                                during your visit.
+
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- FAQ Section End-->
+
+
+    <!-- Disclaimer Section Start -->
+    <section class="disclaimer_sec bg_dark pt-7">
+        <div class="container">
+            <div class="disclaimer_wrap">
+                <h3 class="mb-4 text_white">
+                    Disclaimer
+                </h3>
+                <p class="text_white">
+                    Magic Palace provides information and content for general purposes only. While we strive for
+                    accuracy, we make no guarantees regarding the completeness or reliability of the information
+                    presented. Use of the site and its content is at your own risk. Magic Palace is not responsible for
+                    any loss or damage resulting from reliance on the materials. This site may include links to
+                    external websites; we do not endorse or take responsibility for their content.
+                </p>
+            </div>
+        </div>
+    </section>
+    <!-- Disclaimer Section End -->
+
+
+
+
+
+
+
+
+
+
+
+    <!-- Footer Start  -->
+    <footer class="site-footer bg_dark ">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-top pt-7">
+                    <div class="footer-logo">
+                        <a href="./" class="mb-3"></a>
+                        <p>
+                            Step into the excitement at Magic Palace, a gaming and entertainment destination just
+                            minutes
+                            from downtown Montréal.
+                        </p>
+                    </div>
+                    <div class="footer-links">
+                        <h4>Quick Links</h4>
+                        <ul>
+                            <li><a href="dining">Dining</a></li>
+                            <li><a href="gaming">Gaming</a></li>
+                            <li><a href="promotions">Promotions</a></li>
+                            <li><a href="events">Events</a></li>
+                            <li><a href="about">About</a></li>
+                            <li><a href="contact">Contact</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="footer-links">
+                        <h4>Legal Information</h4>
+                        <ul>
+                            <li><a href="privacy-policy">Privacy Policy</a></li>
+                            <li><a href="personal-data-policy">Personal Data Policy</a></li>
+                            <li><a href="terms-conditions">Terms & Conditions</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="footer-contact">
+                        <h4>Follow Us</h4>
+                        <div class="social-icons mt-4">
+                            <ul>
+
+                                <li><a href="https://www.facebook.com/" target="_blank"><svg
+                                            xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512">
+                                            <path
+                                                d="M80 299.3V512H196V299.3h86.5l18-97.8H196V166.9c0-51.7 20.3-71.5 72.7-71.5c16.3 0 29.4 .4 37 1.2V7.9C291.4 4 256.4 0 236.2 0C129.3 0 80 50.5 80 159.4v42.1H14v97.8H80z">
+                                            </path>
+                                        </svg></a></li>
+                                <li><a href="https://www.instagram.com/" target="_blank"><svg
+                                            xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                                            <path
+                                                d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z">
+                                            </path>
+                                        </svg></a></li>
+                                <li><a href="https://x.com/" target="_blank"><svg xmlns="http://www.w3.org/2000/svg"
+                                            viewBox="0 0 512 512">
+                                            <path
+                                                d="M389.2 48h70.6L305.6 224.2 487 464H345L233.7 318.6 106.5 464H35.8L200.7 275.5 26.8 48H172.4L272.9 180.9 389.2 48zM364.4 421.8h39.1L151.1 88h-42L364.4 421.8z">
+                                            </path>
+                                        </svg></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer-bottom">
+                    <p>
+                        Copyright © 2025 <span class="theme">magic-palace.org</span> All rights reserved.
+                    </p>
+                    <div class="ssl_logo">
+                        <div class="ssl_logo_inner bg_center_contain"
+                            style="background-image: url(assets/images/ssl.png);">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- Footer End  -->
+
+
+
+
+
+
+
+
+
+
+
+    <script src="assets/js/jquery.js"></script>
+    <script src="assets/js/slick.js"></script>
+    <script src="assets/js/aos.js"></script>
+    <script src="assets/js/bootstrap.js"></script>
+    <script src="assets/js/index.js"></script>
+</body>
+
+</html>

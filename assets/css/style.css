@@ -1,0 +1,1124 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Reddit+Sans:ital,wght@0,200..900;1,200..900&display=swap');
+
+
+
+/* Global CSS Start */
+html {
+    font-size: 16px;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    word-break: break-word;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: "Raleway", sans-serif;
+    padding: 0;
+    margin: 0;
+    word-break: break-word;
+    background-color: #0b0e13;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Reddit Sans", sans-serif;
+    margin: 0;
+    line-height: 1;
+    font-weight: 400;
+    letter-spacing: 1px;
+}
+
+p {
+    line-height: 1.6;
+    padding: 0;
+    margin: 0;
+    font-family: "Raleway", sans-serif;
+    letter-spacing: 1px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+ul li {
+    line-height: 1.2;
+    margin-bottom: 3px;
+}
+
+a {
+    display: inline-block;
+    text-decoration: none;
+    font-family: "Raleway", sans-serif;
+}
+
+button,
+textarea,
+input {
+    font-family: "Raleway", sans-serif;
+}
+
+input {
+    font-family: "Raleway", sans-serif;
+}
+
+img {
+    max-width: 100%;
+    object-fit: cover;
+    width: 100%;
+}
+
+.container {
+    width: 100%;
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 0 0.9375rem;
+}
+
+.py-6 {
+    padding: 3.75rem 0;
+}
+
+.pt-6 {
+    padding-top: 3.75rem;
+}
+
+.pb-6 {
+    padding-bottom: 3.75rem;
+}
+
+.py-7 {
+    padding: 4.375rem 0;
+}
+
+.pt-7 {
+    padding-top: 4.375rem;
+}
+
+.pb-7 {
+    padding-bottom: 4.375rem;
+}
+
+.py-8 {
+    padding: 5rem 0;
+}
+
+.pt-8 {
+    padding-top: 5rem;
+}
+
+.pb-8 {
+    padding-bottom: 5rem;
+}
+
+.py-10 {
+    padding: 6.25rem 0;
+}
+
+.pb-10 {
+    padding-bottom: 6.25rem;
+}
+
+.pt-10 {
+    padding-top: 6.25rem;
+}
+
+.inline-flex {
+    display: inline-flex;
+}
+
+.flex {
+    display: flex;
+}
+
+.flex-column {
+    flex-direction: column;
+}
+
+.space-between {
+    justify-content: space-between;
+}
+
+.justify-center {
+    justify-content: center;
+}
+
+.align-center {
+    align-items: center;
+}
+
+.wrap {
+    flex-wrap: wrap;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.text-right {
+    text-align: right;
+}
+
+.m-0-auto {
+    margin: 0 auto
+}
+
+.bg_center_cover {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bg_center_contain {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.bg_left_contain {
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.bg_left_cover {
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bg_bottom_cover {
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.w_100 {
+    width: 100%;
+}
+
+.h_100 {
+    height: 100%;
+}
+
+.align-end {
+    align-items: flex-end;
+}
+
+.bg-0-0 {
+    background-position: 0% 0%;
+}
+
+/* Global CSS End */
+
+/* Website Scrollbar CSS  */
+::-webkit-scrollbar {
+    width: 0.625rem;
+}
+
+::-webkit-scrollbar-track {
+    background-color: #0c0c11;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #ff0808;
+    border-radius: 0.625rem;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #ff0808;
+}
+
+/* Website Scrollbar CSS  */
+
+/* Section Heading CSS Start */
+.section_heading {
+    color: #fff;
+    font-size: 3rem;
+    letter-spacing: 0.3px;
+    text-transform: capitalize;
+}
+
+span.theme {
+    color: #ff0808;
+}
+
+.bold {
+    font-weight: 600;
+}
+
+.bg_theme {
+    background-color: #ff0808;
+}
+
+.bg_dark {
+    background-color: #000;
+}
+
+.bg_light {
+    background-color: #f5f5f7;
+}
+
+.text_white {
+    color: #fff;
+}
+
+.text_theme {
+    color: #ff0808;
+}
+
+.text_dark {
+    color: #000000;
+}
+
+.aoshide {
+    overflow: hidden;
+}
+
+
+/* Section Heading CSS End */
+
+/* Button CSS Start */
+.butn {
+    position: relative;
+    z-index: 2;
+    vertical-align: middle;
+    display: inline-flex;
+    border: none;
+    text-align: center;
+    background-color: #fff;
+    color: #091d1c;
+    font-size: 1.1rem;
+    font-weight: 600;
+    text-transform: capitalize;
+    line-height: 1;
+    padding: 0.9375rem 1.875rem;
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4.875rem;
+}
+
+.butn::after,
+.butn::before {
+    content: "";
+    display: block;
+    width: 3.125rem;
+    height: 3.125rem;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    border-radius: 50%;
+    z-index: -1;
+    background-color: #ff0808;
+    transition: 1.5s ease;
+}
+
+.butn::before {
+    top: -2em;
+    left: -2em;
+}
+
+.butn::after {
+    left: calc(100% + 4em);
+    top: calc(100% + 4em);
+}
+
+.butn:hover {
+    color: #fff;
+    box-shadow: none;
+}
+
+.butn:hover::after,
+.butn:hover::before {
+    height: 55.625rem;
+    width: 55.625rem;
+}
+
+/* Button CSS End*/
+
+
+/* Header CSS Start */
+.top_wrap {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.social_icons ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 10.375rem;
+}
+
+.top_icons .social_icons ul li a {
+    width: 2.5rem;
+    height: 2.5rem;
+    border-radius: 50%;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.375rem;
+    transition: all 0.2s linear;
+    padding: 0.625rem;
+}
+
+.social_icons ul li a:hover {
+    transform: translateY(-4px);
+}
+
+.social_icons ul li a svg {
+    height: 100%;
+    width: 100%;
+    fill: #fff;
+}
+
+.sticky-header {
+    position: sticky;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    margin: 0 auto;
+    z-index: 9999;
+    transition: all 0.3s ease-in-out;
+    padding: 0.9375rem 0px;
+}
+
+.sticky-header.fixed_header {
+    background-color: #0c0c11;
+}
+
+.navigation-bar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.brand-container {
+    text-align: center;
+    vertical-align: middle;
+    display: inline-block;
+}
+
+.brand-container a,
+.footer-logo a {
+    background-image: url(../images/logo.svg);
+    background-position: left;
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 3.75rem;
+    width: 14.75rem;
+}
+
+.menu-toggle-btn {
+    display: none;
+    width: 2.5rem;
+    height: 2.5rem;
+    text-align: right;
+    cursor: pointer;
+    margin: auto 0;
+    z-index: 60;
+    background-image: url("../images/menu.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
+.navigation-menu {
+    display: flex;
+}
+
+.navigation-menu ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navigation-menu ul li a {
+    padding: 0.625rem;
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+    line-height: normal;
+    position: relative;
+    color: #fff;
+    letter-spacing: 0.5px;
+    font-weight: 400;
+    font-size: 1.1rem;
+}
+
+.navigation-menu ul li a:hover {
+    color: #ff0808;
+}
+
+.navigation-menu ul li a::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 1.5px;
+    width: 100%;
+    background-color: #ff0808;
+    transform: scaleX(0);
+    transform-origin: center;
+    transition: transform 0.3s ease-out;
+    border-radius: 5px;
+}
+
+.navigation-menu ul li a.active {
+    color: #ff0808;
+}
+
+.navigation-menu ul li a.active::after,
+.navigation-menu ul li a:hover::after {
+    transform: scaleX(0.9);
+}
+
+
+.menu-close-btn {
+    display: none;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(../images/close.png);
+}
+
+/* Header CSS End */
+
+/* Home Banner CSS Start */
+.banner_slide_content {
+    padding-left: 10rem;
+}
+
+.slick-list.draggable {
+    height: 43.75rem;
+}
+
+body .slick-track {
+    height: 100%;
+}
+
+.banner_slides {
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    background-color: rgba(0 0 0/80%);
+    background-blend-mode: multiply;
+}
+
+.slick-prev:before,
+.slick-next:before {
+    display: none;
+}
+
+
+.slide_content {
+    text-align: center;
+    padding: 0 0.9375rem;
+}
+
+.slick-prev:before,
+.slick-next:before {
+    font-size: 2.1875rem;
+    opacity: 1;
+}
+
+.home_banner button.slick-prev {
+    left: 0;
+    z-index: 1;
+}
+
+.home_banner button.slick-next {
+    right: 0;
+    z-index: 1;
+}
+
+.home_banner .slick-arrow {
+    width: auto !important;
+    height: auto !important;
+}
+
+.home_banner .slick-prev svg,
+.home_banner .slick-next svg {
+    width: 5rem;
+    height: 5rem;
+    fill: #fff;
+    opacity: 0.5;
+    transition: all 0.3s ease;
+}
+
+.home_banner .slick-prev:hover svg,
+.home_banner .slick-next:hover svg {
+    opacity: 1;
+    transform: scale(1.05);
+}
+
+.home_banner .slick-next {
+    right: 50px;
+}
+
+.home_banner .slick-prev {
+    left: -10px;
+    z-index: 99;
+}
+
+.banner_slide_content h1 {
+    font-size: 4rem;
+    max-width: 50rem;
+    line-height: 1.2;
+    font-weight: 600;
+}
+
+/* Home Category Slider CSS End */
+
+
+/* Home After Banner CSS Start */
+.home_nxt_event_wrap .row {
+    background-color: #000;
+    border-top: 5px solid #ff0808;
+    border-bottom: 5px solid #ff0808;
+}
+
+.home_nxt_event_wrap .col-lg-5 {
+    padding: 0;
+}
+
+.img_part_outer {
+    height: 100%;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+}
+
+
+
+.img_part {
+    height: 100%;
+    width: 100%;
+}
+
+.text_part {
+    padding: 5rem 1.875rem;
+}
+
+.text_part h3 {
+    color: #ebbe00;
+    line-height: 1.3;
+}
+
+.text_part p {
+    font-size: 1.1rem;
+}
+
+.common_overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 1000px;
+    height: 1000px;
+    background-color: rgba(255 8 8/20%);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 1.25rem;
+    box-sizing: border-box;
+    text-align: center;
+    transform: translate(-50%, -50%) scale(0);
+    transition: transform 0.8s ease, border-radius 0.3s ease;
+    transform-origin: center;
+    border-radius: 50%;
+    overflow: hidden;
+    pointer-events: none;
+    /* Optional: Prevent overlay from blocking hover */
+}
+
+.img_part_outer:hover .common_overlay {
+    transform: translate(-50%, -50%) scale(1);
+}
+
+/* Home After Banner CSS End */
+
+
+/* Home Cards CSS Start */
+.home_cards_sec {
+    background-image: url(../images/sec_bg1.png);
+    background-color: rgba(255 8 8/10%);
+    background-blend-mode: multiply;
+}
+
+.home_page_cards_img_outer {
+    position: relative;
+    overflow: hidden;
+    height: 25rem;
+}
+
+.home_page_cards_img {
+    height: 100%;
+    width: 100%;
+}
+
+.home_page_cards_content {
+    padding: 1.25rem 0;
+}
+
+.home_page_cards_img_outer:hover .common_overlay {
+    transform: translate(-50%, -50%) scale(1);
+}
+
+/* Home Cards CSS End */
+
+
+
+
+/* Newsletter CSS Start */
+
+.newsletter-wrap input {
+    width: 80%;
+    background: transparent;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid #ff0808;
+    padding: 0.625rem;
+    color: #fff;
+    font-weight: 1.2rem;
+}
+
+.newsletter-wrap input::placeholder {
+    color: #fff;
+    opacity: 1;
+}
+
+.newsletter-wrap input::-ms-input-placeholder {
+    color: #fff;
+}
+
+.newsletter-wrap p {
+    color: #ffff;
+    font-weight: 500;
+    font-size: 1.2rem;
+}
+
+.newsletter-wrap p span.brown {
+    display: inline;
+}
+
+.newsletter-wrap h3 {
+    line-height: 1.3;
+}
+
+.row.newsletter_row {
+    max-width: 62.5rem;
+}
+
+.newsletter_btn {
+    transition: 0.8s all ease-in-out;
+}
+
+.newsletter_btm_txt ul li {
+    list-style-type: disc;
+    margin-left: 1.25rem;
+}
+
+.newsletter_btm_txt ul li::marker {
+    color: #ff0808;
+}
+
+/* Newsletter CSS End */
+
+/* FAQ CSS Start */
+.accordion-button,
+.accordion-button:not(.collapsed) {
+    background: #ff0808;
+    color: #fff;
+    font-size: 2rem;
+}
+
+.accordion-button:focus {
+    box-shadow: none;
+    outline: none;
+}
+
+
+.accordion-button::after {
+    filter: brightness(0) invert(1);
+    /* Makes the default icon white */
+}
+
+.accordion-button:not(.collapsed)::after {
+    filter: brightness(0) invert(1);
+    /* Keep it white when expanded too */
+}
+
+.faq_img_outer {
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
+.faq_img {
+    height: 100%;
+    width: 100%;
+}
+
+.faq_img_outer:hover .common_overlay {
+    transform: translate(-50%, -50%) scale(1);
+}
+
+/* FAQ CSS End */
+
+
+
+/* footer start  */
+.site-footer {
+    padding: 3.125rem 0 0.625rem;
+    color: #fff;
+}
+
+.footer-logo p {
+    font-size: 1rem;
+    color: #ffffffdb;
+    font-weight: 400;
+    margin: 0;
+    line-height: 1.4;
+}
+
+.footer-top {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 0.9375rem;
+    border-top: 1px solid #bb9457;
+}
+
+.footer-top h4 {
+    font-size: 1.7rem;
+    margin-bottom: 1.875rem;
+    color: #ff0808;
+    font-weight: 600;
+}
+
+.footer-links {
+    padding-left: 3.75rem;
+}
+
+.footer-links li a {
+    color: #ffffffdb;
+    font-size: 1.125rem;
+    font-weight: 300;
+    line-height: 120%;
+    transition: all 0.2s linear;
+    position: relative;
+    padding: 0.625rem 0;
+}
+
+.footer-links li a:hover {
+    color: #ff0808;
+}
+
+.footer-links li a::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    border-radius: 5px;
+    height: 1.5px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #ff0808;
+    transform-origin: center;
+    transition: all 0.3s ease-out;
+}
+
+.footer-links li a:hover::after {
+    transform: scaleX(0.9);
+}
+
+.footer-bottom {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 1px solid #bb9457;
+    padding-top: 0.625rem;
+    margin-top: 2.1875rem;
+}
+
+.footer-bottom p {
+    color: #fff;
+}
+
+/* .social-icons ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 14.375rem;
+} */
+
+.social-icons {
+    max-width: 10.625rem;
+}
+
+.social-icons li a {
+    width: 2.5rem;
+    height: 2.5rem;
+    border-radius: 50%;
+    /* border: 1px solid #fff; */
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.375rem;
+    transition: all 0.2s linear;
+    padding: 0.625rem;
+}
+
+.social-icons li a:hover {
+    transform: translateY(-4px);
+}
+
+.ssl_logo {
+    height: 3.75rem;
+    width: 8.75rem;
+}
+
+.ssl_logo_inner {
+    height: 100%;
+    width: 100%;
+}
+
+.social-icons li a svg {
+    height: 100%;
+    width: 100%;
+    fill: #fff;
+}
+
+/* footer end  */
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* dining */
+.inner_banner .banner_slides {
+    height: 550px;
+}
+
+.custom_bullets {
+    list-style-type: disc;
+    padding-left: 20px;
+    /* Adds indent so bullets show properly */
+}
+
+.custom_bullets li {
+    list-style-position: outside;
+    margin-bottom: 0.75rem;
+    /* Optional: space between items */
+}
+
+.italic_text {
+    font-style: italic;
+}
+
+.stay-updated-p {
+    max-width: 1200px;
+}
+
+.inner_banner .banner_slide_content h1 {
+    font-size: 50px;
+    max-width: 62rem;
+    line-height: 1.2;
+    font-weight: 600;
+}
+
+.main-faqs>h2 {
+    color: black;
+}
+
+.promo-corousel p {
+    font-size: 26px;
+    max-width: 1080px;
+}
+
+.dine-features p {
+    font-size: 19.2px;
+}
+
+.dine-features h3 {
+    font-size: 40px;
+}
+
+
+.plan-ul li {
+    font-size: 19.2px;
+}
+
+.plan-ul {
+    list-style-type: disc;
+    /* Adds standard bullet points */
+    padding-left: 20px;
+    /* Ensures bullets are visible */
+}
+
+.plan-ul li {
+    list-style-position: outside;
+}
+
+.about-cards p,
+.about-cards li {
+    font-size: 19.2px;
+}
+
+.contact-main p,
+.contact-main li {
+    font-size: 23px;
+}
+
+.privacy-cards p,
+.privacy-cards li {
+
+    line-height: 32px;
+}
+
+
+
+.contact-form {
+
+
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+
+
+}
+
+.form-title {
+    margin-bottom: 20px;
+}
+
+.contact-form input {
+    width: 80%;
+    background: transparent;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid #ff0808;
+    padding: 0.625rem;
+    color: #fff;
+}
+
+.form-control:focus {
+    color: var(--bs-body-color);
+    background-color: transparent;
+
+
+}
+.newsletter-wrap input,
+.newsletter-wrap textarea {
+    width: 100%;
+    background: transparent;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid #ff0808;
+    padding: 0.625rem;
+    color: #fff;
+    font-size: 1rem;
+    font-weight: 400;
+    resize: none;
+}
+
+/* .newsletter_btn.butn {
+    background-color: #ff0808;
+    color: #fff;
+    padding: 0.75rem 2rem;
+    border: none;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.newsletter_btn.butn:hover {
+    background-color: #c70707;
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.this-month-pr-heading {
+    padding: 50px 0;
+    font-size: 70px;
+    font-weight: 200;
+}
+
+
+.header-toggle-btn {
+    fill: white;
+    width: 30px;
+    height: auto;
+}
+.close-menu-button{
+    fill: white;
+    width: 30px;
+    height: auto;
+}
+.social_icons ul li a {
+    width: 2.5rem;
+    height: 2.5rem;
+    border-radius: 50%;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.375rem;
+    transition: all 0.2s linear;
+    padding: 0.625rem;
+}
+
+
+.top_icons li {
+    margin: 0;
+    margin-right: 0;
+}
+
+
+.contact-social-links ul{
+    display: flex;
+}

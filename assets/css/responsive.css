@@ -1,0 +1,828 @@
+@media screen and (max-width:1399px) {}
+
+
+@media screen and (max-width:1199px) {
+
+    .accordion-button,
+    .accordion-button:not(.collapsed) {
+        font-size: 25px;
+    }
+    .temp-home-slider-wrap .banner_slide_content {
+        padding-left: 7rem;
+    }
+    .banner_slide_content {
+        padding-left: 5rem;
+    }
+}
+
+
+@media screen and (max-width: 1024px) {
+    html {
+        font-size: 15px;
+    }
+
+    .footer-links,
+    .footer-contact {
+        padding-left: 2.75rem;
+    }
+
+    .footer-top h5 {
+        font-size: 1.1rem;
+        line-height: 1.4;
+    }
+
+    .accordion-button,
+    .accordion-button:not(.collapsed) {
+
+        font-size: 25px;
+    }
+
+    .banner_slide_content {
+        padding-left: 4rem;
+    }
+
+    .inner_banner .banner_slide_content h1 {
+        font-size: 45px;
+
+    }
+
+    .this-month-pr-heading {
+        padding: 50px 0;
+        font-size: 55px;
+        font-weight: 200;
+    }
+
+    .promo-slider .banner_slide_content h1 {
+        font-size: 3rem;
+
+    }
+
+    .promo-slider .promo-corousel p {
+        font-size: 20px;
+        max-width: 930px;
+    }
+
+    .promo-slider button.slick-next {
+        right: 35% !important;
+    }
+
+    .promo-slider .slick-prev,
+    .promo-slider .slick-next {
+
+        top: 80%;
+
+    }
+
+    .promo-slider button.slick-prev {
+        left: 35% !important;
+
+    }
+
+    .promo-slider .slick-prev svg,
+    .promo-slider .slick-next svg {
+        width: 5rem;
+        height: 4rem;
+
+    }
+
+
+
+    .temp-home-slider-wrap .banner_slide_content {
+        padding-left: 6rem;
+    }
+}
+
+@media (max-width: 991px) {
+    .navigation-menu {
+        position: fixed;
+        top: 0;
+        left: 0;
+        height: 100%;
+        width: 100%;
+        padding: 50px;
+        background-color: #102b2a;
+        transform: translateX(100%);
+        transition: all 0.3s linear;
+        z-index: 100;
+        color: #fff;
+        flex-direction: column;
+        justify-content: center;
+        overflow: hidden;
+    }
+
+    .menuToggle .navigation-menu {
+        transform: translateX(0);
+        justify-content: flex-start;
+    }
+
+    .navigation-menu ul {
+        flex-direction: column;
+
+    }
+
+    .menu-toggle-btn {
+        display: block;
+    }
+
+    .menu-close-btn {
+        position: absolute;
+        top: 20px;
+        right: 20px;
+        display: block;
+        text-align: end;
+        z-index: 55;
+        font-size: 21px;
+        height: 2.5rem;
+        width: 2.5rem;
+    }
+
+    .footer-logo a {
+        width: 13.625rem;
+    }
+
+    .footer-links,
+    .footer-contact {
+        padding-left: 1.75rem;
+    }
+
+    .footer-top h4 {
+        font-size: 1.6rem;
+    }
+
+    .home_banner_img {
+        height: 25rem;
+    }
+
+    .home_banner_sec {
+        margin-top: 1.5rem;
+    }
+
+    .home_banner_content {
+        padding: 2rem 0 0 0;
+    }
+
+    .home_featured_img_outer {
+        height: 23rem;
+    }
+
+    .bar_card_img_outer {
+        margin-bottom: 1.875rem;
+    }
+
+    .bar_card_content a h3 {
+        font-size: 1.6rem;
+    }
+
+    .section_heading {
+        font-size: 2.5rem;
+    }
+
+    .home_own_sports_content {
+        align-items: center;
+        text-align: center;
+    }
+
+
+    .banner_slide_content h1 {
+        font-size: 50px;
+
+    }
+
+    .accordion-button,
+    .accordion-button:not(.collapsed) {
+
+        font-size: 25px;
+    }
+
+    .banner_slide_content {
+        padding-left: 7rem;
+    }
+
+    .home_page_cards_img_outer {
+
+        height: 18rem;
+    }
+
+    .inner_banner .banner_slide_content h1 {
+        font-size: 45px;
+    }
+
+    .banner_slide_content {
+        padding-left: 4rem;
+    }
+
+    .text_part {
+        padding: 2rem 1.875rem;
+    }
+
+    .this-month-pr-heading {
+
+        font-size: 50px;
+        padding: 10px 0 50px;
+    }
+
+    .banner_slide_content {
+        padding-left: 2rem;
+    }
+
+    .promo-slider .slick-list.draggable {
+        height: 35.75rem;
+    }
+
+    .about-cards p,
+    .about-cards li {
+        font-size: 17.2px;
+    }
+
+    .about-cards .mb-5 {
+        margin-bottom: 20px !important;
+    }
+
+    section.home_cards_sec.bg_center_cover.py-7.bg_light.aoshide.about-page-cards {
+        padding: 50px 0;
+    }
+}
+
+@media (max-width: 767px) {
+    html {
+        font-size: 14px;
+    }
+
+    .footer-top {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-areas:
+            "logo logo"
+            "links1 links2"
+            "contact contact";
+        gap: 1rem;
+    }
+
+    .footer-logo {
+        grid-area: logo;
+    }
+
+    .footer-links:nth-of-type(2) {
+        grid-area: links1;
+    }
+
+    .footer-links:nth-of-type(3) {
+        grid-area: links2;
+    }
+
+    .footer-contact {
+        grid-area: contact;
+    }
+
+    .footer-links,
+    .footer-contact {
+        padding-left: 0;
+        border-left: none;
+    }
+
+    .footer-bottom {
+        flex-direction: column;
+        gap: 1.25rem;
+        text-align: center;
+    }
+
+    .social-icons ul {
+        display: flex;
+    }
+
+    .contact_page_form form {
+        max-width: 100%;
+    }
+
+    .contact_page_form {
+        padding-top: 3.5rem;
+    }
+
+    .home_banner_content h1 {
+        font-size: 2.2rem;
+    }
+
+    .home_explore_content h4 {
+        font-size: 1.7rem;
+    }
+
+    .home_why_us_content h4 {
+        margin-bottom: 0.625rem;
+    }
+
+    .home_why_us_img_outer {
+        height: 16.75rem;
+    }
+
+    .home_featured_img_outer {
+        height: 20rem;
+    }
+
+    .banner_content h1 {
+        font-size: 2.5rem;
+    }
+
+    .sub_banner {
+        height: 30.875rem;
+    }
+
+    .bar_card_img_outer {
+        height: 20rem;
+    }
+
+    .home_own_sports_img_outer {
+        height: 21.25rem;
+        margin-bottom: 1.875rem;
+    }
+
+    .blog_cards_btn_wrap {
+        text-align: left;
+    }
+
+    .blog_image_txt h1 {
+        font-size: 1.4rem;
+        line-height: 1.4;
+    }
+
+
+
+    .banner_slide_content h1 {
+        font-size: 37px;
+    }
+
+    .banner_slide_content {
+        padding-left: 4rem;
+    }
+
+    .home_banner .slick-prev svg,
+    .home_banner .slick-next svg {
+        width: 5rem;
+        height: 3rem;
+
+    }
+
+    .text_part {
+        padding: 1rem 1.875rem 2rem;
+    }
+
+    .brand-container a,
+    .footer-logo a {
+
+        width: 10.75rem;
+    }
+
+    .header-toggle-btn {
+        fill: white;
+        width: 25px;
+        height: auto;
+    }
+
+    .home_page_cards_img_outer {
+        height: 32rem;
+    }
+
+    .inner_banner .banner_slide_content h1 {
+        font-size: 44px;
+    }
+
+    .banner_slide_content {
+        padding-left: 2rem;
+    }
+
+    .inner_banner .banner_slide_content h1 {
+        font-size: 35px;
+    }
+
+    .inner_banner .banner_slides {
+        height: 500px;
+    }
+
+    .py-7 {
+        padding: 2.375rem 0;
+    }
+
+    .this-month-pr-heading {
+        font-size: 40px;
+        padding: 10px 0 40px;
+    }
+
+    .promo-slider .banner_slide_content h1 {
+        font-size: 35px;
+    }
+
+    .promo-slider .promo-corousel p {
+        font-size: 18px;
+        max-width: 930px;
+    }
+
+    .home_banner .slick-prev svg,
+    .home_banner .slick-next svg {
+        width: 5rem;
+        height: 38px;
+    }
+
+    .dine-features h3 {
+        font-size: 35px;
+    }
+
+    .dine-features p {
+        font-size: 16.8px;
+    }
+
+    .dine-features .py-5 {
+        padding-top: 3rem !important;
+        padding-bottom: 1rem !important;
+    }
+
+    .plan-ul li {
+        font-size: 15.2px;
+    }
+
+
+}
+
+
+
+
+@media screen and (max-width:575px) {
+    .footer-top {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-areas:
+            "logo"
+            "links1"
+            "links2"
+            "contact";
+        gap: 1rem;
+    }
+
+    .brand-container a,
+    .footer-logo a {
+        width: 12.75rem;
+    }
+
+    .footer-links,
+    .footer-contact {
+        border-top: 1px solid rgb(192 147 66/30%);
+        padding-top: 1.25rem;
+    }
+
+    .home_banner_content h1 {
+        font-size: 2rem;
+    }
+
+    .home_banner_content h3 {
+        font-size: 1.5rem;
+    }
+
+    .section_heading {
+        font-size: 2.3rem;
+        line-height: 1.4;
+    }
+
+    .home_explore_cards {
+        height: 20rem;
+    }
+
+    .home_why_us_content h4 {
+        font-size: 1.6rem;
+    }
+
+    .home_own_sports_img_outer {
+        height: 20.25rem;
+        margin-bottom: 2.25rem;
+    }
+
+    .py-5 {
+        padding-top: 2rem !important;
+        padding-bottom: 2rem !important;
+    }
+
+    .banner_content h1 {
+        font-size: 2.2rem;
+    }
+
+    .sub_banner {
+        height: 26.875rem;
+    }
+
+    .home_why_cards {
+        padding: 1rem;
+    }
+
+    .bar_cards {
+        margin-bottom: 2.75rem;
+    }
+
+    .pt-5 {
+        padding-top: 2rem !important;
+    }
+
+    .pb-5 {
+        padding-bottom: 2rem !important;
+    }
+
+    .blog_image_txt h1 {
+        font-size: 1.3rem;
+    }
+
+    .accordion-button,
+    .accordion-button:not(.collapsed) {
+        font-size: 22px;
+    }
+
+    .banner_slide_content h1 {
+        font-size: 30px;
+    }
+
+    .slick-list.draggable {
+        height: 38.75rem;
+    }
+
+    .text_part {
+        padding: 1rem 1.875rem;
+    }
+
+    .py-7 {
+        padding: 2.375rem 0;
+    }
+
+    .brand-container a,
+    .footer-logo a {
+        width: 9.75rem;
+    }
+
+    .header-toggle-btn {
+        fill: white;
+        width: 23px;
+        height: auto;
+    }
+
+    .home_page_cards_img_outer {
+        height: 24rem;
+    }
+
+    .banner_slide_content {
+        padding-left: 1rem;
+    }
+
+    .inner_banner .banner_slide_content h1 {
+        font-size: 30px;
+    }
+
+    .inner_banner .banner_slides {
+        height: 490px;
+    }
+
+    .this-month-pr-heading {
+        font-size: 35px;
+        padding: 10px 0 30px;
+    }
+
+    .promo-slider .banner_slide_content h1 {
+        font-size: 29px;
+    }
+
+    .home_banner .slick-prev svg,
+    .home_banner .slick-next svg {
+        width: 5rem;
+        height: 30px;
+    }
+
+    .promo-slider .promo-corousel p {
+        font-size: 17px;
+        max-width: 930px;
+    }
+
+    .promo-slider .slick-list.draggable {
+        height: 30.75rem;
+    }
+
+    .dine-features h3 {
+        font-size: 32px;
+    }
+
+    .about-cards p,
+    .about-cards li {
+        font-size: 15.2px;
+    }
+
+    .temp-home-slider-wrap .banner_slide_content {
+        padding-left: 4rem;
+    }
+
+
+}
+
+@media screen and (max-width:480px) {
+    .home_banner_img {
+        height: 20rem;
+    }
+
+    .home_banner_content h1 {
+        font-size: 1.8rem;
+    }
+
+    .home_banner_content h3 {
+        font-size: 1.3rem;
+        line-height: 1.4;
+    }
+
+    .home_banner_content p {
+        font-size: 1rem;
+    }
+
+    .brand-container a,
+    .footer-logo a {
+        width: 11.75rem;
+    }
+
+    .section_heading {
+        font-size: 1.8rem;
+    }
+
+    .home_explore_content h4 {
+        font-size: 1.5rem;
+    }
+
+    .home_why_us_img_outer {
+        height: 15.75rem;
+    }
+
+    .butn {
+        padding: 0.625rem 1.25rem;
+        line-height: 1.4;
+    }
+
+    .newsletter-wrap p {
+        font-size: 1rem;
+    }
+
+    .home_own_sports_img_outer {
+        height: 16.25rem;
+    }
+
+    .footer-bottom p {
+        font-size: 0.9rem;
+    }
+
+    .banner_content h1 {
+        font-size: 1.8rem;
+    }
+
+    .sub_banner {
+        height: 22.875rem;
+    }
+
+    .bar_card_img_outer {
+        height: 17rem;
+    }
+
+    .blog_card_butn {
+        font-size: 1rem;
+    }
+
+    .blog_card_title h5 {
+        font-weight: 600;
+        font-size: 1.2rem;
+    }
+
+    .contact_page_content_info h3 svg,
+    .contact_page_form h3 svg {
+        height: 1.5rem;
+        width: 1.5rem;
+    }
+
+    .blog_image_txt h1 {
+        font-size: 1.2rem;
+    }
+
+    .banner_slide_content {
+        padding-left: 3rem;
+    }
+
+    .banner_slide_content h1 {
+        font-size: 25px;
+    }
+
+    .home_banner .slick-prev svg,
+    .home_banner .slick-next svg {
+        width: 5rem;
+        height: 2rem;
+    }
+
+    .accordion-button,
+    .accordion-button:not(.collapsed) {
+        font-size: 16px;
+    }
+
+    .pt-7 {
+        padding-top: 2.375rem;
+    }
+
+    .py-7 {
+        padding: 2.375rem 0;
+    }
+
+    .brand-container a,
+    .footer-logo a {
+        width: 7.75rem;
+    }
+
+    .header-toggle-btn {
+
+        width: 25px;
+
+    }
+
+    .slick-list.draggable {
+        height: 31.75rem;
+    }
+
+    .text_part {
+        padding: 0 1rem 1rem;
+    }
+
+    .home_page_cards_img_outer {
+
+        height: 14rem;
+    }
+
+    .home_banner button.slick-next {
+        right: 30%;
+        z-index: 1;
+    }
+
+    .slick-prev,
+    .slick-next {
+
+        top: 90%;
+
+    }
+
+    .home_banner button.slick-prev {
+        left: 30%;
+        z-index: 1;
+    }
+
+    .banner_slide_content {
+        padding-left: 1rem;
+    }
+
+    .inner_banner .banner_slide_content h1 {
+        font-size: 20px;
+    }
+
+    .inner_banner .banner_slides {
+        height: 360px;
+    }
+
+    .this-month-pr-heading {
+        font-size: 25px;
+        padding: 10px 0 30px;
+    }
+
+    .promo-slider .banner_slide_content h1 {
+        font-size: 22px;
+    }
+
+    .promo-slider .promo-corousel p {
+        font-size: 15px;
+        max-width: 930px;
+    }
+
+    .promo-slider .slick-list.draggable {
+        height: 25.75rem;
+    }
+
+    .dine-features p {
+        font-size: 14px;
+    }
+
+    .dine-features h3 {
+        font-size: 25px;
+    }
+
+
+    .plan-ul li {
+        font-size: 14px;
+    }
+
+    .privacy-cards p,
+    .privacy-cards li {
+        line-height: 30px;
+    }
+
+    .rg-cards {
+        padding-bottom: 0px !important;
+    }
+
+    /* .privacy-cards p,
+    .privacy-cards li {
+        line-height: 25px;
+    }
+
+    .privacy-cards li {
+        margin-bottom: 5px !important;
+    } */
+}
