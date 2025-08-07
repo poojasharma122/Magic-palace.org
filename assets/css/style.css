@@ -282,7 +282,7 @@ span.theme {
 }
 
 .text_dark {
-    color: #000000;
+    color: #0c0c11;
 }
 
 .aoshide {
@@ -1121,4 +1121,20 @@ body .slick-track {
 
 .contact-social-links ul{
     display: flex;
+}
+
+
+
+
+
+
+
+.upper-newsletter-section{
+    background-color: #fff;
+}
+.upper-newsletter-section p{
+    color: #000;
+}
+.upper-newsletter-section li{
+    color: #000;
 }
