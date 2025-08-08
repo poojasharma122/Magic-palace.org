@@ -7,9 +7,11 @@
     .accordion-button:not(.collapsed) {
         font-size: 25px;
     }
+
     .temp-home-slider-wrap .banner_slide_content {
         padding-left: 7rem;
     }
+
     .banner_slide_content {
         padding-left: 5rem;
     }
@@ -146,7 +148,8 @@
     }
 
     .footer-top h4 {
-        font-size: 1.6rem;
+        font-size: 22px;
+        line-height: 1.4;
     }
 
     .home_banner_img {
@@ -241,6 +244,7 @@
     section.home_cards_sec.bg_center_cover.py-7.bg_light.aoshide.about-page-cards {
         padding: 50px 0;
     }
+
     .img_part_outer {
         height: 20rem;
     }
@@ -724,8 +728,9 @@
     }
 
     .py-7 {
-        padding: 2.375rem 0;
+        padding: 20px 0;
     }
+
 
     .brand-container a,
     .footer-logo a {
@@ -828,4 +833,15 @@
     .privacy-cards li {
         margin-bottom: 5px !important;
     } */
+    .section_heading {
+        margin-bottom: 2rem !important;
+    }
+
+    .newsletter-wrap .section_heading {
+        margin-bottom: 0rem !important;
+    }
+
+    .newsletter-wrap .pt-5 {
+        padding-top: 1rem !important;
+    }
 }

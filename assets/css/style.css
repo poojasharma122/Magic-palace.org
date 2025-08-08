@@ -666,7 +666,7 @@ body .slick-track {
 
 /* Home Cards CSS Start */
 .home_cards_sec {
-    background-image: url(../images/sec_bg1.png);
+    /* background-image: url(../images/sec_bg1.png); */
     background-color: rgba(255 8 8/10%);
     background-blend-mode: multiply;
 }
@@ -709,13 +709,13 @@ body .slick-track {
 }
 
 .newsletter-wrap input::placeholder {
-    color: #fff;
+    /* color: #fff; */
     opacity: 1;
 }
 
-.newsletter-wrap input::-ms-input-placeholder {
-    color: #fff;
-}
+/* .newsletter-wrap input::-ms-input-placeholder {
+   
+} */
 
 .newsletter-wrap p {
     color: #ffff;
@@ -873,18 +873,28 @@ body .slick-track {
     color: #fff;
 }
 
-/* .social-icons ul {
+.footer-contact .social-icons ul {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    max-width: 14.375rem;
-} */
-
-.social-icons {
+}
+.social-icons li a {
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
+    border: 1px solid #fff;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.375rem;
+    transition: all 0.2s linear;
+    padding: 0.625rem;
+}
+.footer-contact  .social-icons {
     max-width: 10.625rem;
 }
 
-.social-icons li a {
+.footer-contact  .social-icons li a {
     width: 2.5rem;
     height: 2.5rem;
     border-radius: 50%;
@@ -897,7 +907,7 @@ body .slick-track {
     padding: 0.625rem;
 }
 
-.social-icons li a:hover {
+.footer-contact  .social-icons li a:hover {
     transform: translateY(-4px);
 }
 
@@ -1001,9 +1011,9 @@ body .slick-track {
     font-size: 19.2px;
 }
 
-.contact-main p,
-.contact-main li {
+.contact-main p, .contact-main li {
     font-size: 23px;
+    padding-right: 10px;
 }
 
 .privacy-cards p,
@@ -1049,7 +1059,7 @@ body .slick-track {
     background: transparent;
     outline: none;
     border: none;
-    border-bottom: 1px solid #ff0808;
+    border-bottom: 1px solid #fff;
     padding: 0.625rem;
     color: #fff;
     font-size: 1rem;
@@ -1137,4 +1147,18 @@ body .slick-track {
 }
 .upper-newsletter-section li{
     color: #000;
+}
+
+.top_bar .row .col-7.mb-2{
+    margin-bottom: 0 !important;
+}
+
+.top_bar .social-icons li a {
+    width: 2.5rem;
+    height: 2.5rem;
+    border: none;
+}
+
+.top_bar .list-inline-item {
+    margin-right: 0 !important;
 }
