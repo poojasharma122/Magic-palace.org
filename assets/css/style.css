@@ -516,7 +516,7 @@ body .slick-track {
 }
 
 .banner_slides {
-    height: 100%;
+    height: 80%;
     margin: 0 auto;
     display: flex;
     justify-content: flex-start;
