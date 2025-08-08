@@ -92,6 +92,20 @@
     .temp-home-slider-wrap .banner_slide_content {
         padding-left: 6rem;
     }
+
+    .contact_sec h3 {
+        font-size: 20px;
+    }
+
+    .contact_sec h2 {
+        font-size: 25px;
+    }
+
+
+    .contact_sec li,
+    .contact_sec p {
+        font-size: 17px;
+    }
 }
 
 @media (max-width: 991px) {
@@ -843,5 +857,18 @@
 
     .newsletter-wrap .pt-5 {
         padding-top: 1rem !important;
+    }
+
+    .about-cards p,
+    .about-cards li {
+        font-size: 14.2px;
+    }
+
+    .contact_sec h3 {
+        font-size: 19px;
+    }
+
+    .contact_sec h2 {
+        font-size: 20px;
     }
 }

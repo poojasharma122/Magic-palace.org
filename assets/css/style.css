@@ -561,10 +561,9 @@ body .slick-track {
     height: auto !important;
 }
 
-.home_banner .slick-prev svg,
-.home_banner .slick-next svg {
+.home_banner .slick-prev svg, .home_banner .slick-next svg {
     width: 5rem;
-    height: 5rem;
+    height: 4rem;
     fill: #fff;
     opacity: 0.5;
     transition: all 0.3s ease;
@@ -586,7 +585,7 @@ body .slick-track {
 }
 
 .banner_slide_content h1 {
-    font-size: 4rem;
+    font-size: 40px;
     max-width: 50rem;
     line-height: 1.2;
     font-weight: 600;
@@ -978,7 +977,7 @@ body .slick-track {
 }
 
 .promo-corousel p {
-    font-size: 26px;
+    font-size: 22px;
     max-width: 1080px;
 }
 
@@ -1094,9 +1093,9 @@ body .slick-track {
 
 
 .this-month-pr-heading {
-    padding: 50px 0;
-    font-size: 70px;
-    font-weight: 200;
+    padding: 30px 0;
+    font-size: 45px;
+    font-weight: 500;
 }
 
 
