@@ -871,4 +871,7 @@
     .contact_sec h2 {
         font-size: 20px;
     }
+    .text_part p {
+    font-size: 1rem;
+}
 }
