@@ -1007,14 +1007,16 @@ body .slick-track {
 
 .about-cards p,
 .about-cards li {
-    font-size: 19.2px;
+    font-size: 1.0625rem;
 }
 
 .contact-main p, .contact-main li {
     font-size: 23px;
     padding-right: 10px;
 }
-
+.privacy-cards .mb-5 {
+    margin-bottom: 1.5rem !important;
+}
 .privacy-cards p,
 .privacy-cards li {
 
@@ -1160,4 +1162,8 @@ body .slick-track {
 
 .top_bar .list-inline-item {
     margin-right: 0 !important;
+}
+
+.privacy-cards .small_heading {
+    font-size: 1.4rem;
 }
